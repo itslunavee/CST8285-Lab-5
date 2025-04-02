@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="xkNB7UOv0xOUzgQfIbmh">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_A3x1w7VCBfdyapOkqc-3" target="L_A3x1w7VCBfdyapOkqc-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="320" as="sourcePoint" />
+            <mxPoint x="470" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L_A3x1w7VCBfdyapOkqc-4" target="L_A3x1w7VCBfdyapOkqc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_A3x1w7VCBfdyapOkqc-5" target="L_A3x1w7VCBfdyapOkqc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="580" as="sourcePoint" />
+            <mxPoint x="460" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-9" value="Form Submission (POST request with form data)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="290" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-10" value="PHP processes request (reads $_POST data)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-11" value="Generates HTML response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L_A3x1w7VCBfdyapOkqc-12" target="L_A3x1w7VCBfdyapOkqc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="660" as="sourcePoint" />
+            <mxPoint x="460" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-14" value="Displays Processed Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-15" value="Client browser" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-16" value="Apache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-17" value="PHP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-18" value="Client Browser" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_A3x1w7VCBfdyapOkqc-19" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="685" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
