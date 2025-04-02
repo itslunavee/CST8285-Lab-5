@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Movie Info</title>    
+    
+    <link rel="stylesheet" href="css/styles1.css" />
+   
+
+</head>
+
 <?php
 include 'headerM.php';
 ?>
