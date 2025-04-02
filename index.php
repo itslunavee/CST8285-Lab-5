@@ -19,7 +19,7 @@ function generateOptions($array) {
     <meta charset="utf-8">
     <title>Chapter 12</title>    
     
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles1.css" />
    
 
 </head>
