@@ -28,7 +28,7 @@ function generateOptions($array) {
 
     
 <main>
-<form class="form" method="post" action="" id="mainForm">
+<form class="form" method="post" action="process.php" id="mainForm">
    <fieldset class="form__panel">
       <legend class="form__heading">Edit Movie Details</legend>
         <p class="form__row">
