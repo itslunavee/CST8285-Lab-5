@@ -70,7 +70,7 @@ function generateOptions($array) {
        </p>  
 		<p class="form__row"> 
            <label>Main Director</label><br/>
-           <select name="coStar" class="form__input form__select">
+           <select name="director" class="form__input form__select">
               <option>Choose Main Director</option> 
               <?php echo generateOptions($MainDirectors); ?>
            </select>
