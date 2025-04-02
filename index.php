@@ -2,7 +2,7 @@
 // define array
 $genres = array("action", "adventure", "comedy", "drama");
 $subjects = array("Animation", "Children and Youth", "People");
-$MainDirectors = array("Roger Allers", "Steven Spielberg", "James Cameron", "Christopher Nolan");
+$MainDirectors = array("Roger Allers", "Steven Spielberg", "James Cameron", "Christopher Nolan", "Hayao Miyazaki");
 
 // generate options from the array
 function generateOptions($array) {
